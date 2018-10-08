@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.862 19.944">
+  <defs>
+    <style>
+      .search-icon-1 {
+        fill: none;
+        stroke: #273751;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <circle class="search-icon-1" cx="6.98" cy="6.98" r="6.98" transform="translate(0.5 0.5)"/>
+  <line class="search-icon-1" x1="6.735" y1="6.776" transform="translate(12.42 12.46)"/>
+</svg>

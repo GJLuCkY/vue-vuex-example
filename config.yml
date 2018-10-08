@@ -1,0 +1,9 @@
+apps:
+- name: client # process name. You will use it to make commands such as pm2 restart client
+  script: node_modules/nuxt/bin/nuxt-start  # path to nuxt renderer from root nuxt dir. Don't touch it
+  cwd: /var/www/html/albion	# absolute path to nuxt dir
+  max_memory_restart: "250M" 	# in case of nuxt renderer eats all memory, it will be restarted
+  args: "--max-old-space-size=200"	# in case you running small amount of RAM
+  env_production:
+    PORT: 3000		# local port. Same port should be set in nginx config
+    NODE_ENV: production	# in case of enviroment variables usage
